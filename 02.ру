@@ -1,0 +1,13 @@
+import math
+
+print("Task 1")
+def find_sqare(w, h):
+    conv_val = 0.000022957
+    SQFT_PER_ACRE = (w**2) * conv_val * (h**2) * conv_val
+    return SQFT_PER_ACRE
+
+
+width = int(input("Ведите ширину вашего участка в футах: "))
+height = int(input("Ведите высоту вашего участка в футах: "))
+
+print("Площадь в акрах равна:", find_sqare(width, height))

@@ -1,0 +1,11 @@
+print("Task 2")
+def find_velocity(vi,  d):
+    a = 9.8
+    return math.sqrt(vi**2)+2*a*d
+
+
+param1 = int(input("Введите начальную скорость: "))
+param2 = int(input("Введите дистанцию: "))
+print("Скорость при соприкосновении объекта с землей = ", find_velocity(param1, param2))
+
+print("Площадь в акрах равна:", find_sqare(width, height))

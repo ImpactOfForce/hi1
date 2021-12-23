@@ -9,4 +9,4 @@ def get_days_in_month(month):
 
 
 m = input("Введите месяц: ")
-print("В этом месяце:", get_days_in_month(m))eight))
+print("В этом месяце:", get_days_in_month(m))

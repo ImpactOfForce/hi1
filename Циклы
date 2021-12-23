@@ -1,0 +1,7 @@
+result = ""
+q = int(input("Please, input 10-base number:"))
+while q !=0:
+    result += str(q % 2)
+    q //= 2
+
+    print("2-base number:",result[::-1])
